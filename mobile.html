@@ -1,0 +1,63 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+  </head>
+
+  <body>
+    <center>
+     <div class="col-xs-12 headerdiv">
+       <h1>Mobile Image Recognizer
+         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2Fimages%2Fe1f90e17732b9a4942b4fa32bb5c240a%2Ftenor.gif&f=1&nofb=1">
+       </h1>
+     </div>
+     <br><br>
+     <div class="col-sm-6 col-xs-12 maindiv">
+       <label>Webcam View - </label>
+         <div id="camera"></div>
+         <br>
+         <button id="button" onclick="selfie()" class="btn btn-info">Selfie</button>
+     </div>
+     <div class="col-sm-6 col-xs-12 maindiv">
+      <label>Image Captured - </label>
+        <div id="webcamsnap"></div>
+        <br>
+        <button id="button" onclick="check()" class="btn btn-success">Check</button>
+    </div>
+    <br>
+    <div class="col-xs-12 outputdiv">
+      <h4 class="col-sm-12 col-xs-12">
+        <img src="https://i.giphy.com/media/IS9LfP9oSLdcY/200_d.gif">
+        <span id="result"></span>
+      </h4>
+    </div>
+    <br>
+    <div class="copyright">
+     Developed by - Ronak Prakash
+    </div>
+    </center>
+
+
+    
+<script src="mobile.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
